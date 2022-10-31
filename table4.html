@@ -1,0 +1,45 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="table4.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+    		<canvas id="navB"	width="40" height="40"	style="border:1px solid gold;margin-left:0px;border-radius:10px;" onclick="showSideBar()"></canvas>
+    		<input id="newItems" type="text" placeholder="New Items" onchange="insertItem(this.value,this.id);" style="width:80px;margin-left:auto;"/>
+     <ul id="sideBar">
+       <li><canvas id="navC"	width="28" height="28"	style="border:1px solid gold;margin-right:auto;border-radius:10px; position:relative;right:0;" onclick="hideSideBar()"></canvas>
+    		</li>
+        <li><a href="table4.html">MAPATO</a></li>
+        <li><a href="matumizi.html">MATUMIZI</a></li>
+        <li><a href="faida.html">FAIDA</a></li>
+        </ul>
+        </nav>
+        </header>
+<div id="table">
+      <div id="total">
+        
+        </div>
+    </div>
+    <p id="test">0</p>
+
+    <footer>
+      <div id="one">
+    <button class="buttons" onclick="undo()">Undo</button>
+    </div>
+    
+   
+    </footer>
+<!-- <input type="date" id="field" name="field" />
+<input type="datetime-local" id="field" name="field" /><br>
+Set color:<input type="color" id="field" name="field" />-->
+
+
+  <script src="table4.js"></script>
+  </body>
+  </html>
